@@ -1,0 +1,33 @@
+{
+    "name": "rahul/module-hello",
+    "description": "Testing Module Creation using composer",
+    "type": "magento2-module",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Rahul Hedaoo",
+            "email": "hedaoor@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.magento.com/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/alankent/magento2-module-show-application-state"
+        }
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Rahul\\Hello\\": ""
+        }
+    }
+}
