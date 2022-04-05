@@ -1,6 +1,6 @@
 # Mage2 Module Rahul Hello
 
-    ``rahul/module-hello``
+    ``rahul1/module-hello``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
